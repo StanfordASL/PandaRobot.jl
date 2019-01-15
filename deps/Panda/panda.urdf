@@ -9,11 +9,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link0.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link0.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <link name="panda_link1">
@@ -21,11 +23,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link1.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link1.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_joint1" type="revolute">
@@ -41,11 +45,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link2.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link2.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_joint2" type="revolute">
@@ -61,11 +67,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link3.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link3.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_joint3" type="revolute">
@@ -81,11 +89,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link4.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link4.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_joint4" type="revolute">
@@ -101,11 +111,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link5.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link5.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_joint5" type="revolute">
@@ -121,11 +133,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link6.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link6.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_joint6" type="revolute">
@@ -141,11 +155,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link7.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/link7.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_joint7" type="revolute">
@@ -173,11 +189,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/hand.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/hand.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <link name="panda_leftfinger">
@@ -185,11 +203,13 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/finger.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/finger.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <link name="panda_rightfinger">
@@ -198,12 +218,14 @@
       <geometry>
         <mesh filename="package://Panda/meshes/collision/finger.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </visual>
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://Panda/meshes/collision/finger.obj"/>
       </geometry>
+      <material name="panda_white"/>
     </collision>
   </link>
   <joint name="panda_finger_joint1" type="prismatic">
@@ -221,4 +243,7 @@
     <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/>
     <mimic joint="panda_finger_joint1"/>
   </joint>
+  <material name="panda_white">
+    <color rgba="1. 1. 1. 1."/>
+  </material>
 </robot>
